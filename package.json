@@ -1,0 +1,11 @@
+{
+  "name": "react-select-country",
+  "version": "1.0.0",
+  "description": "select country + flags with reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Domenico Falco",
+  "license": "MIT"
+}
