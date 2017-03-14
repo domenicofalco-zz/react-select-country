@@ -1,11 +1,28 @@
 {
-  "name": "react-select-country",
+  "name": "xcard-ui",
   "version": "1.0.0",
-  "description": "select country + flags with reactjs",
   "main": "index.js",
+  "repository": "ssh://git.dev.techops.eu/xcard-ui",
+  "author": "PPRO - Frontend Team",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack",
+    "watch": "webpack --watch",
+    "build": "webpack --p"
   },
-  "author": "Domenico Falco",
-  "license": "MIT"
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "expose-loader": "^0.7.1",
+    "script-loader": "^0.7.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-click-outside": "^2.2.0",
+    "react-dom": "^15.4.2"
+  }
 }
