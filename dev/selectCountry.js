@@ -179,6 +179,7 @@ class SelectCountry extends React.Component {
         break;
 
         case 13: {
+          // enter
           e.preventDefault();
           this.selectOption(this.optionSelectedAsArray);
         }
@@ -195,7 +196,6 @@ class SelectCountry extends React.Component {
   }
 
   componentWillMount() {
-    // set default country
     const { countryList } = this.state;
 
     if(countryList.length) {

@@ -9804,6 +9804,7 @@ var SelectCountry = function (_React$Component) {
 
         case 13:
           {
+            // enter
             e.preventDefault();
             this.selectOption(this.optionSelectedAsArray);
           }
@@ -9826,7 +9827,6 @@ var SelectCountry = function (_React$Component) {
     value: function componentWillMount() {
       var _this5 = this;
 
-      // set default country
       var countryList = this.state.countryList;
 
 
